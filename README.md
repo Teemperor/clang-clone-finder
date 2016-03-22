@@ -15,3 +15,4 @@ Run with:
 
 Example: run `clang-clone-finder make` in the `/tests/testproject1` directory.
 
+Currently only collects build information and prints it to the command line.
