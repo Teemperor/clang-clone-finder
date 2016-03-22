@@ -1,0 +1,9 @@
+
+build
+.idea
+
+# in case someone actually builds the tests
+tests/testproject1/*.o
+tests/testproject1/testbin
+# for crashes
+core.*

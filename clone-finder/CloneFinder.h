@@ -1,0 +1,10 @@
+#ifndef STANDALONE_CLONEFINDER_H
+#define STANDALONE_CLONEFINDER_H
+
+
+class CloneFinder {
+
+};
+
+
+#endif //STANDALONE_CLONEFINDER_H
