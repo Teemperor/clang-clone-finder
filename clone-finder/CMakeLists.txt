@@ -25,8 +25,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
     main.cpp
-    CCXXEnvOverwriter.cpp
-        ASTCollector.cpp ASTCollector.h CloneFinder.cpp CloneFinder.h FakeCCListener.cpp FakeCCListener.h)
+    CloneFinder.cpp
+    #TODO SelectiveStmtProfiler.cpp
+)
 
 add_executable(clang-clone-finder ${SOURCE_FILES})
 
